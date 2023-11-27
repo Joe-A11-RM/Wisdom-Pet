@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto+Slab:wght@200;300;400;500;700&display=swap');
+
+h2,h3{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    position: relative;
+}
+.navbar-light .navbar-brand{
+    background-image: url(../images/wisdompetlogo.svg);
+background-repeat: no-repeat;
+    min-height: 90px;
+    padding-left: 115px;
+    color:azure;
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 250;
+    font-size: 2em;
+}
+.navbar-light .navbar-brand:hover{
+    color: azure;
+}
+.subhead{
+    display: block;
+  
+      font-family: 'Roboto Slab', serif;
+font-weight: 200;
+font-size: 0.7em;
+}
+
+
+
+
+
+
+
+
+#mission{
+background-image: linear-gradient(180deg, rgba(204, 255, 102, 1.0) 0%,rgba(102, 153, 51, 1.0) 100%); 
+  background-image: -webkit- linear-gradient(270deg, rgba(204, 255, 102, 1.0) 0%,rgba(102, 153, 51, 1.0) 100%);   
+    background-image: -moz- linear-gradient(270deg, rgba(204, 255, 102, 1.0) 0%,rgba(102, 153, 51, 1.0) 100%); 
+    background-image: -o- linear-gradient(270deg, rgba(204, 255, 102, 1.0) 0%,rgba(102, 153, 51, 1.0) 100%); 
+    min-height:300px;
+border-top: 10px solid rgba(102,102,51,0.7); 
+padding-bottom: 40px;
+}
+#services img{
+    max-width: 80px; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#services h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+article {
+    text-align: center;
+}
+
+ #staff img {
+	max-width: 100%;
+} 
+#staff h3
+{
+    text-align: left;
+    font-weight: 600;
+ font-size: 1.5em;
+    color:darkred;
+}
+#staff p{
+    text-align: justify;
+}
+#staff{
+  background-image: linear-gradient(180deg, rgba(240, 225, 130, 1.0)0%, rgba(200, 140, 0, 1.0)100%);
+   background-image: -webkit-linear-gradient(270deg, rgba(240, 225, 130, 1.0)0%, rgba(200, 140, 0, 1.0)100%);
+   background-image: -o-linear-gradient(270deg, rgba(240, 225, 130, 1.0)0%, rgba(200, 140, 0, 1.0)100%);
+  background-image:-moz- linear-gradient(270deg, rgba(240, 225, 130, 1.0)0%, rgba(200, 140, 0, 1.0)100%);
+min-height: 400px;
+    padding-bottom: 40px;
+}
+.doctor{
+    margin-bottom: 30px;
+}
+#testimonials h2{
+    display: none;
+}
+blockquote {
+    min-height:450px;
+    
+}
+#janeh{
+    background-image: url(../images/testimonial-janeh.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#mcphersons{
+    background-image: url(../images/testimonial-mcphersons.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#johnb{
+    background-image: url(../images/testimonial-johnb.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#lorraines{
+    background-image: url(../images/testimonial-lorraines.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.quote{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 75%;
+    background-color: rgba(255,255,255,0.35);
+    border-top-right-radius: 20px;
+    padding: 15px;
+    line-height: 135%;
+}
+.customer{
+    display: none;
+}
+.intro{
+    font-family: 'Roboto Slab', 'serif';
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.intro::after{
+    content: "...";
+}
+.more{
+    font-family: 'Open sans', 'sans-serif';
+    font-weight: 400;
+    font-size: 0em;
+    display: block;
+}
+.quote:hover .more{
+    font-size:0.9em;
+}
+.quote:hover .intro::after{
+    content: "";
+}
+footer{
+    background-color: rgba(51,102,102,1.0);
+    min-height: 120px;
+    color:rgba(255,255,255,1.0);
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+footer div{
+    margin-bottom: 20px;
+}
+footer p{
+    font-size: 1.1em;
+}
+.phone{
+   font-size: 1.4em;
+    font-weight: 600;
+    color: cornsilk;
+}
+footer a {
+    color:lightyellow;
+}
+footer a:hover {
+    color:lightyellow;
+}
